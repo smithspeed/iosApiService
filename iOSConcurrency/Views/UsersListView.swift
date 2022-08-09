@@ -45,9 +45,17 @@ struct UsersListView: View {
             })
             .navigationTitle("Users")
             .listStyle(.plain)
-            .onAppear{
-                vm.fetchUsers()
+            .task {
+                await vm.fetchUsers()
             }
+//            .onAppear{
+//                //vm.fetchUsers() // for sync
+//
+//                //For async operation
+//                Task{
+//                   await vm.fetchUsers()
+//                }
+//            }
         }
     }
 }

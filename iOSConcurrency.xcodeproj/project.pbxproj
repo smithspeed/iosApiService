@@ -14,9 +14,9 @@
 		1089B99F28A172F100AB018B /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1089B99E28A172F100AB018B /* User.swift */; };
 		1089B9A128A173DE00AB018B /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1089B9A028A173DE00AB018B /* Post.swift */; };
 		1089B9A428A1754B00AB018B /* APIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1089B9A328A1754B00AB018B /* APIService.swift */; };
-		1089B9A828A18C4400AB018B /* UsersListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1089B9A728A18C4400AB018B /* UsersListViewModel.swift */; };
 		1089B9AA28A2300A00AB018B /* PostsListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1089B9A928A2300900AB018B /* PostsListViewModel.swift */; };
 		1089B9AC28A2380800AB018B /* PostsListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1089B9AB28A2380800AB018B /* PostsListView.swift */; };
+		1089B9AE28A2AD1300AB018B /* UsersListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1089B9A728A18C4400AB018B /* UsersListViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -190,11 +190,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				1089B99128A1701000AB018B /* UsersListView.swift in Sources */,
-				1089B9A828A18C4400AB018B /* UsersListViewModel.swift in Sources */,
 				1089B9A428A1754B00AB018B /* APIService.swift in Sources */,
 				1089B98F28A1701000AB018B /* iOSConcurrencyApp.swift in Sources */,
 				1089B99F28A172F100AB018B /* User.swift in Sources */,
 				1089B9A128A173DE00AB018B /* Post.swift in Sources */,
+				1089B9AE28A2AD1300AB018B /* UsersListViewModel.swift in Sources */,
 				1089B9AC28A2380800AB018B /* PostsListView.swift in Sources */,
 				1089B9AA28A2300A00AB018B /* PostsListViewModel.swift in Sources */,
 			);
